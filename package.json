@@ -1,12 +1,16 @@
 {
   "name": "filesystem",
   "version": "1.0.0",
-  "description": "",
   "main": "desafio-dos.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

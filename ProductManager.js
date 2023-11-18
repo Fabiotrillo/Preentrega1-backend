@@ -4,7 +4,7 @@ import { promises as fs } from "fs";
 
 class ProductManager {
     constructor() {
-        this.patch = "./productos.txt";
+        this.patch = "./productos.json";
         this.products = [];
     }
 
@@ -71,11 +71,18 @@ class ProductManager {
 
 }
 
-const manager = new ProductManager
+// const manager = new ProductManager
 
 // manager.addProduct('product1', 'description product 1', 80, './img/product1.jpg', 'xjf203', 5)
 // manager.addProduct('product2', 'description product 2', 120, './img/product2.jpg', '123abc', 10)
 // manager.addProduct('product3', 'description product 3', 160, './img/product3.jpg', 'jxp101', 15)
+// manager.addProduct('product4', 'description product 4', 90, './img/product4.jpg', 'xyz456', 8)
+// manager.addProduct('product5', 'description product 5', 110, './img/product5.jpg', 'abc789', 12)
+// manager.addProduct('product6', 'description product 6', 140, './img/product6.jpg', 'lmn012', 20)
+// manager.addProduct('product7', 'description product 7', 75, './img/product7.jpg', 'pqr345', 7)
+// manager.addProduct('product8', 'description product 8', 100, './img/product8.jpg', 'def678', 18)
+// manager.addProduct('product9', 'description product 9', 130, './img/product9.jpg', 'ghi901', 25)
+// manager.addProduct('product10', 'description product 10', 95, './img/product10.jpg', 'uvw234', 13)
 
 //manager.getProducts()
 
@@ -92,3 +99,6 @@ const manager = new ProductManager
     stock: 15,
     id: 3
 })*/
+
+
+export default ProductManager;
